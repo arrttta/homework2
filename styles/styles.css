@@ -272,7 +272,8 @@ footer p {
         grid-column-start: 1;
         grid-column-end: 4;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
     }
 
     .feature {
@@ -282,7 +283,7 @@ footer p {
 
     .listing {
         grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-end: 3;
     }
 
     .sidebar {
